@@ -1,0 +1,327 @@
+@import "mixins";
+@import "variables";
+
+.communitycard_bg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    position: relative;
+    background-image: linear-gradient(to bottom, #06203a, #000);
+    -ms-user-select: none;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+
+    .community {
+        height: 480px;
+        position: relative;
+
+        @media (max-width: $mobile-size) {
+            height: 550px;
+        }
+
+        .community_title {
+            position: absolute;
+            top: 80px;
+            left: 50%;
+            transform: translateX(-50%);
+            height: 29px;
+            width: 157px;
+            @include font(24px, #fff);
+            line-height: 29px;
+
+            @media (max-width: $mobile-size) {
+                top: 40px;
+            }
+        }
+
+        .community_content {
+            width: 740px;
+            height: 38px;
+            left: 50%;
+            transform: translateX(-50%);
+            top: 137px;
+            position: absolute;
+            @include font(16px, #fff);
+            line-height: 20px;
+
+            @media (max-width: $mobile-size) {
+                width: calc(100% - 40px);
+                top: 97px;
+            }
+        }
+
+        .community_icons {
+            width: 232px;
+            height: 96px;
+            left: 50%;
+            transform: translateX(-50%);
+            top: 255px;
+            position: absolute;
+            display: flex;
+            flex-direction: row;
+
+            @media (max-width: $mobile-size) {
+                top: 233px;
+                width: 96px;
+                height: 368px;
+                flex-direction: column;
+            }
+
+            .com_icon1 {
+                width: 96px;
+                height: 96px;
+                border-radius: 48px;
+                box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5);
+                border: solid 0.8px rgba(#fff, 0.3);
+                margin: 0 40px 0 0;
+                cursor: pointer;
+                display: flex;
+                flex-direction: column;
+                text-decoration-line: none;
+
+                @media (max-width: $mobile-size) {
+                    margin: 0 0 40px 0;
+                    border-radius: 48px;
+                    box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.5);
+                    border-style: solid;
+                    border-width: 0.8px;
+                    border-image-source: linear-gradient(
+                        137deg,
+                        #ff41cf -1%,
+                        #0b7ae6 105%
+                    );
+                    background-image: linear-gradient(
+                            to bottom,
+                            rgba(0, 0, 0, 0.1),
+                            rgba(0, 0, 0, 0.1)
+                        ),
+                        linear-gradient(137deg, #ff41cf -1%, #0b7ae6 105%);
+                    background-origin: border-box;
+                    background-clip: content-box, border-box;
+                }
+
+                &:hover {
+                    background-image: linear-gradient(
+                            to bottom,
+                            rgba(0, 0, 0, 0.1),
+                            rgba(0, 0, 0, 0.1)
+                        ),
+                        linear-gradient(137deg, #ff41cf -1%, #0b7ae6 105%);
+                    background-origin: border-box;
+                    background-clip: content-box, border-box;
+
+                    .com_icon1_img {
+                        background-image: url("../../../Assets/Images/logo-twitter2.svg");
+                        background-size: cover;
+                        height: 32px;
+                        width: 32px;
+                        margin: 21px auto 0 auto;
+                    }
+
+                    .com_icon1_text {
+                        width: 56px;
+                        height: 15px;
+                        margin: 6px auto 0 auto;
+                        @include font(12px, #fff);
+                        line-height: 15px;
+                    }
+                }
+
+                .com_icon1_img {
+                    background-image: url("../../../Assets/Images/logo-twitter.svg");
+                    height: 32px;
+                    width: 32px;
+                    margin: 21px auto 0 auto;
+
+                    @media (max-width: $mobile-size) {
+                        background-image: url("../../../Assets/Images/logo-twitter2.svg");
+                        background-size: cover;
+                    }
+                }
+
+                .com_icon1_text {
+                    width: 56px;
+                    height: 15px;
+                    margin: 6px auto 0 auto;
+                    @include font(12px, rgba(255, 255, 255, 0.3));
+                    line-height: 15px;
+
+                    @media (max-width: $mobile-size) {
+                        @include font(12px, #fff);
+                    }
+                }
+            }
+
+            .com_icon2 {
+                width: 96px;
+                height: 96px;
+                border-radius: 48px;
+                box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5);
+                border: solid 0.8px rgba(#fff, 0.3);
+                margin: 0 auto 0 auto;
+                cursor: pointer;
+                display: flex;
+                flex-direction: column;
+                text-decoration-line: none;
+
+                @media (max-width: $mobile-size) {
+                    margin: 0 0 40px 0;
+                    border-radius: 48px;
+                    box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.5);
+                    border-style: solid;
+                    border-width: 0.8px;
+                    border-image-source: linear-gradient(
+                        137deg,
+                        #ff41cf -1%,
+                        #0b7ae6 105%
+                    );
+                    background-image: linear-gradient(
+                            to bottom,
+                            rgba(0, 0, 0, 0.1),
+                            rgba(0, 0, 0, 0.1)
+                        ),
+                        linear-gradient(137deg, #ff41cf -1%, #0b7ae6 105%);
+                    background-origin: border-box;
+                    background-clip: content-box, border-box;
+                }
+
+                &:hover {
+                    background-image: linear-gradient(
+                            to bottom,
+                            rgba(0, 0, 0, 0.1),
+                            rgba(0, 0, 0, 0.1)
+                        ),
+                        linear-gradient(137deg, #ff41cf -1%, #0b7ae6 105%);
+                    background-origin: border-box;
+                    background-clip: content-box, border-box;
+
+                    .com_icon2_img {
+                        background-image: url("../../../Assets/Images/logo-telegram2.svg");
+                        background-size: cover;
+                        height: 32px;
+                        width: 32px;
+                        margin: 21px auto 0 auto;
+                    }
+
+                    .com_icon2_text {
+                        width: 56px;
+                        height: 15px;
+                        margin: 6px auto 0 auto;
+                        @include font(12px, #fff);
+                        line-height: 15px;
+                    }
+                }
+
+                .com_icon2_img {
+                    background-image: url("../../../Assets/Images/logo-telegram.svg");
+                    height: 32px;
+                    width: 32px;
+                    margin: 21px auto 0 auto;
+
+                    @media (max-width: $mobile-size) {
+                        background-image: url("../../../Assets/Images/logo-telegram2.svg");
+                        background-size: cover;
+                    }
+                }
+
+                .com_icon2_text {
+                    width: 56px;
+                    height: 15px;
+                    margin: 6px auto 0 auto;
+                    @include font(12px, rgba(255, 255, 255, 0.3));
+                    line-height: 15px;
+
+                    @media (max-width: $mobile-size) {
+                        @include font(12px, #fff);
+                    }
+                }
+            }
+
+            .com_icon3 {
+                width: 96px;
+                height: 96px;
+                border-radius: 48px;
+                box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5);
+                border: solid 0.8px rgba(#fff, 0.3);
+                cursor: pointer;
+                display: flex;
+                flex-direction: column;
+                text-decoration-line: none;
+
+                @media (max-width: $mobile-size) {
+                    border-radius: 48px;
+                    box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.5);
+                    border-style: solid;
+                    border-width: 0.8px;
+                    border-image-source: linear-gradient(
+                        137deg,
+                        #ff41cf -1%,
+                        #0b7ae6 105%
+                    );
+                    background-image: linear-gradient(
+                            to bottom,
+                            rgba(0, 0, 0, 0.1),
+                            rgba(0, 0, 0, 0.1)
+                        ),
+                        linear-gradient(137deg, #ff41cf -1%, #0b7ae6 105%);
+                    background-origin: border-box;
+                    background-clip: content-box, border-box;
+                }
+
+                &:hover {
+                    background-image: linear-gradient(
+                            to bottom,
+                            rgba(0, 0, 0, 0.1),
+                            rgba(0, 0, 0, 0.1)
+                        ),
+                        linear-gradient(137deg, #ff41cf -1%, #0b7ae6 105%);
+                    background-origin: border-box;
+                    background-clip: content-box, border-box;
+
+                    .com_icon3_img {
+                        background-image: url("../../../Assets/Images/logo-medium2.svg");
+                        background-size: cover;
+                        height: 32px;
+                        width: 32px;
+                        margin: 21px auto 0 auto;
+                    }
+
+                    .com_icon3_text {
+                        width: 56px;
+                        height: 15px;
+                        margin: 6px auto 0 auto;
+                        @include font(12px, #fff);
+                        line-height: 15px;
+                    }
+                }
+
+                .com_icon3_img {
+                    background-image: url("../../../Assets/Images/logo-medium.svg");
+                    height: 32px;
+                    width: 32px;
+                    margin: 21px auto 0 auto;
+
+                    @media (max-width: $mobile-size) {
+                        background-image: url("../../../Assets/Images/logo-medium2.svg");
+                        background-size: cover;
+                    }
+                }
+
+                .com_icon3_text {
+                    width: 56px;
+                    height: 15px;
+                    margin: 6px auto 0 auto;
+                    @include font(12px, rgba(255, 255, 255, 0.3));
+                    line-height: 15px;
+
+                    @media (max-width: $mobile-size) {
+                        @include font(12px, #fff);
+                    }
+                }
+            }
+        }
+    }
+}

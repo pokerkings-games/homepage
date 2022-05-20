@@ -1,0 +1,102 @@
+@import "mixins";
+@import "variables";
+
+.navbar_mobile {
+    height: 60px;
+    width: 100vw;
+    background: rgba(#000, 0.3);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .navbar_mobile_logo_wrap {
+        width: 80px;
+        height: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .navbar_mobile_logo {
+            width: 40px;
+            height: 40px;
+            background-image: url("../../../Assets/Images/m-logo-tp.svg");
+            margin: 0 0 0 20px;
+        }
+    }
+
+    .navbar_mobile_menubutton_wrap {
+        height: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .navbar_mobile_menubutton {
+            width: 40px;
+            height: 40px;
+            background: #fff;
+            margin: 0 20px 0 0;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+    }
+}
+
+.inner_container {
+    display: none;
+
+    @media (max-width: $width-pc1) {
+        display: flex;
+        flex-direction: column;
+
+        position: fixed;
+        left: 0px;
+        top: $header-mobile - 30px;
+        width: 100%;
+        overflow-y: hidden;
+        height: calc(100% - 70px);
+
+        z-index: 100030;
+
+        transition-duration: $anim-duration;
+
+        background-color: transparent;
+
+        &.showmenu {
+            background-color: rgba(black, 0.3);
+            .menu_container {
+                top: 0px;
+            }
+        }
+
+        .menu_container {
+            position: absolute;
+            left: 0px;
+            top: -100vh;
+            width: 100%;
+
+            z-index: 100002;
+
+            transition-duration: $anim-duration;
+
+            overflow-y: scroll;
+
+            max-height: 100%;
+            padding-bottom: 30px;
+            background-color: rgba(0, 0, 0, 0.3);
+
+            .menu {
+                cursor: pointer;
+                height: 81px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                padding-left: 30px;
+                padding-right: 30px;
+
+                .title {
+                    @include font(24px, white);
+                }
+            }
+        }
+    }
+}

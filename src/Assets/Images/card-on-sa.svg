@@ -1,0 +1,83 @@
+<svg width="330" height="450" viewBox="0 0 330 450" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <filter x="-5%" y="-3.6%" width="110%" height="107.1%" filterUnits="objectBoundingBox" id="sdvbr4iaqa">
+            <feGaussianBlur stdDeviation="5" in="SourceGraphic"/>
+        </filter>
+        <filter x="-.7%" y="-.5%" width="101.3%" height="101%" filterUnits="objectBoundingBox" id="zp5un7cvzc">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"/>
+            <feOffset dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"/>
+            <feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" in="shadowInnerInner1"/>
+        </filter>
+        <filter x="-57.9%" y="-61%" width="215.8%" height="221.9%" filterUnits="objectBoundingBox" id="4nc0mxk7tf">
+            <feGaussianBlur stdDeviation="10" in="SourceGraphic"/>
+        </filter>
+        <filter x="-35.5%" y="-26.6%" width="171.1%" height="173.6%" filterUnits="objectBoundingBox" id="ojs730w9ug">
+            <feMorphology radius=".6" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"/>
+            <feOffset dy="5" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0.0154848352 0 0 0 0 0.147256763 0 0 0 0 0.263706373 0 0 0 1 0" in="shadowBlurOuter1"/>
+        </filter>
+        <filter x="-29%" y="-30.5%" width="157.9%" height="161%" filterUnits="objectBoundingBox" id="60vjpt84ti">
+            <feGaussianBlur stdDeviation="5" in="SourceGraphic"/>
+        </filter>
+        <filter x="-35.5%" y="-26.6%" width="171.1%" height="173.6%" filterUnits="objectBoundingBox" id="rpdnogxa8j">
+            <feMorphology radius=".6" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"/>
+            <feOffset dy="5" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0.0154848352 0 0 0 0 0.147256763 0 0 0 0 0.263706373 0 0 0 1 0" in="shadowBlurOuter1"/>
+        </filter>
+        <filter x="-23.1%" y="-20.8%" width="146.2%" height="141.6%" filterUnits="objectBoundingBox" id="lna96r9c0l">
+            <feGaussianBlur stdDeviation="5" in="SourceGraphic"/>
+        </filter>
+        <filter x="-46.2%" y="-41.6%" width="192.3%" height="183.2%" filterUnits="objectBoundingBox" id="oae4bt0kcm">
+            <feGaussianBlur stdDeviation="10" in="SourceGraphic"/>
+        </filter>
+        <linearGradient x1="50%" y1=".654%" x2="50%" y2="80.654%" id="01b65v2jgb">
+            <stop stop-color="#1635FF" offset="0%"/>
+            <stop stop-color="#0E147B" offset="34.629%"/>
+            <stop stop-color="#0A0130" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="nase9nuple">
+            <stop stop-color="#F0EDED" offset="0%"/>
+            <stop stop-color="#2A16FF" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="cuhk487pjn">
+            <stop stop-color="#57ACFF" stop-opacity=".852" offset="0%"/>
+            <stop stop-color="#168CFF" offset="98.909%"/>
+        </linearGradient>
+        <path d="m30.046 0 21.758 49.212h-10.05L36.64 37.235h-21.9L9.98 49.212H0L20.313 0h9.733zM17.632 30.013h15.905l-8.323-19.48-7.582 19.48z" id="10mz9fkohh"/>
+        <path d="m30.046 0 21.758 49.212h-10.05L36.64 37.235h-21.9L9.98 49.212H0L20.313 0h9.733zM17.632 30.013h15.905l-8.323-19.48-7.582 19.48z" id="6si2dbh6bk"/>
+        <rect id="pqvb22uoed" x="15" y="15" width="300" height="420" rx="15"/>
+    </defs>
+    <g transform="matrix(-1 0 0 1 330 0)" fill="none" fill-rule="evenodd">
+        <path d="M0 0h330v450H0z"/>
+        <rect fill="#0A5297" filter="url(#sdvbr4iaqa)" x="15" y="15" width="300" height="420" rx="15"/>
+        <rect fill="url(#01b65v2jgb)" opacity=".8" x="15" y="15" width="300" height="420" rx="15"/>
+        <g opacity=".962">
+            <use fill="#000" filter="url(#zp5un7cvzc)" xlink:href="#pqvb22uoed"/>
+            <rect stroke="url(#nase9nuple)" stroke-linejoin="square" x="15.5" y="15.5" width="299" height="419" rx="15"/>
+        </g>
+        <g fill-rule="nonzero">
+            <path d="m30.046 0 21.758 49.212h-10.05L36.64 37.235h-21.9L9.98 49.212H0L20.313 0h9.733zM17.632 30.013h15.905l-8.323-19.48-7.582 19.48z" filter="url(#4nc0mxk7tf)" transform="translate(62.575 55)" fill="#168CFF"/>
+            <g transform="translate(62.575 55)">
+                <use fill="#000" filter="url(#ojs730w9ug)" xlink:href="#10mz9fkohh"/>
+                <use stroke-opacity=".8" stroke="#66CDE8" stroke-width="1.2" fill-opacity=".51" fill="#168CFF" xlink:href="#10mz9fkohh"/>
+            </g>
+            <path d="m30.046 0 21.758 49.212h-10.05L36.64 37.235h-21.9L9.98 49.212H0L20.313 0h9.733zM17.632 30.013h15.905l-8.323-19.48-7.582 19.48z" filter="url(#60vjpt84ti)" transform="translate(62.575 55)" fill="#168CFF"/>
+            <g transform="translate(62.575 55)">
+                <use fill="#000" filter="url(#rpdnogxa8j)" xlink:href="#6si2dbh6bk"/>
+                <use stroke-opacity=".8" stroke="#66CDE8" stroke-width="1.2" fill-opacity=".51" fill="#0081FF" xlink:href="#6si2dbh6bk"/>
+            </g>
+        </g>
+        <g fill="#168CFF">
+            <path d="M53.147 24.295C39.079 11.461 34.372 3.923 32.807.572c0 0-.237-.698-.305-.552-.075-.146-.309.552-.309.552-1.568 3.351-6.277 10.89-20.343 23.723C-1.752 36.7-2.939 47.025 4.703 55.44c7.06 7.777 18.545 3.978 22.638.597.012-.006.744-.463 2.883-2.57.015-.017.04.017.059.035-.595 8.91-5.913 16.742-8.055 18.643H42.77c-2.141-1.9-7.46-9.733-8.054-18.643.018-.018.046-.052.063-.034 2.134 2.106 2.871 2.563 2.875 2.57h.003c4.093 3.38 15.579 7.179 22.64-.598 7.643-8.416 6.457-18.74-7.15-31.145" filter="url(#lna96r9c0l)" transform="translate(55 125.855)"/>
+            <path d="M108.147 150.15c-14.068-12.833-18.775-20.372-20.34-23.722 0 0-.237-.698-.305-.553-.075-.145-.309.553-.309.553-1.568 3.35-6.277 10.889-20.343 23.723-13.602 12.405-14.789 22.729-7.147 31.144 7.06 7.777 18.545 3.979 22.638.598.012-.007.744-.463 2.883-2.57.015-.018.04.016.059.034-.595 8.91-5.913 16.743-8.055 18.643H97.77c-2.141-1.9-7.46-9.733-8.054-18.643.018-.018.046-.052.063-.034 2.134 2.107 2.871 2.563 2.875 2.57h.003c4.093 3.38 15.579 7.18 22.64-.598 7.643-8.415 6.457-18.74-7.15-31.144" stroke="#FFF" stroke-width="1.2" fill-opacity=".3"/>
+            <path d="M53.147 24.295C39.079 11.461 34.372 3.923 32.807.572c0 0-.237-.698-.305-.552-.075-.146-.309.552-.309.552-1.568 3.351-6.277 10.89-20.343 23.723C-1.752 36.7-2.939 47.025 4.703 55.44c7.06 7.777 18.545 3.978 22.638.597.012-.006.744-.463 2.883-2.57.015-.017.04.017.059.035-.595 8.91-5.913 16.742-8.055 18.643H42.77c-2.141-1.9-7.46-9.733-8.054-18.643.018-.018.046-.052.063-.034 2.134 2.106 2.871 2.563 2.875 2.57h.003c4.093 3.38 15.579 7.179 22.64-.598 7.643-8.416 6.457-18.74-7.15-31.145" filter="url(#oae4bt0kcm)" transform="translate(55 125.855)"/>
+            <path d="M108.147 150.15c-14.068-12.833-18.775-20.372-20.34-23.722 0 0-.237-.698-.305-.553-.075-.145-.309.553-.309.553-1.568 3.35-6.277 10.889-20.343 23.723-13.602 12.405-14.789 22.729-7.147 31.144 7.06 7.777 18.545 3.979 22.638.598.012-.007.744-.463 2.883-2.57.015-.018.04.016.059.034-.595 8.91-5.913 16.743-8.055 18.643H97.77c-2.141-1.9-7.46-9.733-8.054-18.643.018-.018.046-.052.063-.034 2.134 2.107 2.871 2.563 2.875 2.57h.003c4.093 3.38 15.579 7.18 22.64-.598 7.643-8.415 6.457-18.74-7.15-31.144" stroke="#FFF" stroke-width="1.2" fill-opacity=".3"/>
+        </g>
+        <rect stroke="url(#cuhk487pjn)" x="27.5" y="27.5" width="275" height="395" rx="12"/>
+    </g>
+</svg>

@@ -1,0 +1,21 @@
+<svg width="980" height="580" viewBox="0 0 980 580" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient x1="0%" y1="37.5%" x2="100%" y2="62.5%" id="k8ut0fs2ob">
+            <stop stop-color="#610DFF" offset="0%"/>
+            <stop stop-color="#06E0CB" offset="54.914%"/>
+            <stop stop-color="#FF00C6" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="0%" y1="37.5%" x2="100%" y2="62.5%" id="djaq3qdfma">
+            <stop stop-color="#3707CB" offset="0%"/>
+            <stop stop-color="#84F924" offset="47.6%"/>
+            <stop stop-color="#FF00A1" offset="100%"/>
+        </linearGradient>
+        <filter x="-11.2%" y="-22.5%" width="122.5%" height="145%" filterUnits="objectBoundingBox" id="129epj0r2c">
+            <feGaussianBlur stdDeviation="30" in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g transform="translate(14 14)" fill="none" fill-rule="evenodd">
+        <path d="M0 0h952v552H0z"/>
+        <rect stroke="url(#djaq3qdfma)" fill="url(#k8ut0fs2ob)" filter="url(#129epj0r2c)" x="76.5" y="76.5" width="799" height="399" rx="10"/>
+    </g>
+</svg>

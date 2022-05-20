@@ -1,0 +1,28 @@
+@import "variables";
+
+@mixin fontLight($size, $color) {
+    font-family: "Roboto", sans-serif;
+    // font-weight: lighter;
+    font-size: $size;
+    color: $color;
+}
+
+@mixin font($size, $color) {
+    font-family: "Roboto", sans-serif;
+    font-size: $size;
+    color: $color;
+}
+
+@mixin fontBold($size, $color) {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: $size;
+    color: $color;
+}
+
+@mixin box() {
+    border-radius: 10px;
+    box-shadow: 0 20px 15px 0 rgba(0, 0, 0, 0.4);
+    border: solid 1px #3b3531;
+    background-color: #1a1a1e;
+}

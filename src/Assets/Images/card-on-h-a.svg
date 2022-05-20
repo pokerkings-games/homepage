@@ -1,0 +1,115 @@
+<svg width="330" height="450" viewBox="0 0 330 450" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <filter x="-2%" y="-1.4%" width="104%" height="102.9%" filterUnits="objectBoundingBox" id="3tlz4em1ha">
+            <feGaussianBlur stdDeviation="2" in="SourceGraphic"/>
+        </filter>
+        <filter x="-.7%" y="-.5%" width="101.3%" height="101%" filterUnits="objectBoundingBox" id="xwr7je6qvc">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"/>
+            <feOffset dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"/>
+            <feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" in="shadowInnerInner1"/>
+        </filter>
+        <filter x="-1%" y="-.7%" width="102%" height="101.4%" filterUnits="objectBoundingBox" id="fux4enjbkg">
+            <feGaussianBlur stdDeviation="1" in="SourceGraphic"/>
+        </filter>
+        <filter x="-.7%" y="-.5%" width="101.3%" height="101%" filterUnits="objectBoundingBox" id="b0a4e5t42h">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"/>
+            <feOffset dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"/>
+            <feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" in="shadowInnerInner1"/>
+        </filter>
+        <filter x="-2%" y="-1.4%" width="104%" height="102.9%" filterUnits="objectBoundingBox" id="0kxocvruyj">
+            <feGaussianBlur stdDeviation="2" in="SourceGraphic"/>
+        </filter>
+        <filter x="-.7%" y="-.5%" width="101.3%" height="101%" filterUnits="objectBoundingBox" id="4infomw09k">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"/>
+            <feOffset dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"/>
+            <feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" in="shadowInnerInner1"/>
+        </filter>
+        <filter x="-27.8%" y="-27.8%" width="155.6%" height="155.6%" filterUnits="objectBoundingBox" id="2jtveq9k5m">
+            <feGaussianBlur stdDeviation="10" in="SourceGraphic"/>
+        </filter>
+        <filter x="-27.8%" y="-27.8%" width="155.6%" height="155.6%" filterUnits="objectBoundingBox" id="y34mz02din">
+            <feGaussianBlur stdDeviation="10" in="SourceGraphic"/>
+        </filter>
+        <filter x="-21.3%" y="-14.1%" width="142.5%" height="128.1%" filterUnits="objectBoundingBox" id="3d4kujqa9o">
+            <feGaussianBlur stdDeviation="9" in="SourceGraphic"/>
+        </filter>
+        <filter x="-6.3%" y="-2.1%" width="112.6%" height="108.3%" filterUnits="objectBoundingBox" id="dao6mtzmrp">
+            <feOffset dy="4" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 1 0 0 0 0 0.164445979 0 0 0 0 0.493578898 0 0 0 1 0" in="shadowBlurOuter1"/>
+        </filter>
+        <filter x="-21.3%" y="-14.1%" width="142.5%" height="128.1%" filterUnits="objectBoundingBox" id="4hdpq5fxgr">
+            <feGaussianBlur stdDeviation="9" in="SourceGraphic"/>
+        </filter>
+        <linearGradient x1="50%" y1=".654%" x2="50%" y2="100%" id="ag7ueiaktb">
+            <stop stop-color="#7A13A0" offset="0%"/>
+            <stop stop-color="#2B0130" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="ql2lb9ynie">
+            <stop stop-color="#F0EDED" offset="0%"/>
+            <stop stop-color="#FF1FAA" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="v8wg04n2of">
+            <stop stop-color="#FF6FC8" stop-opacity=".852" offset="0%"/>
+            <stop stop-color="#FF1FAA" offset="100%"/>
+        </linearGradient>
+        <rect id="witfhm1s2d" x="15" y="15" width="300" height="420" rx="15"/>
+        <rect id="jyjqv2d1bi" x="0" y="0" width="300" height="420" rx="15"/>
+        <rect id="u8m3uizrol" x="0" y="0" width="300" height="420" rx="15"/>
+        <text id="etho1kj3qq" font-family="Gotham-Medium, Gotham" font-size="160" font-weight="400" fill="#FB00FF" fill-opacity=".877">
+            <tspan x="0" y="154">A</tspan>
+        </text>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="matrix(-1 0 0 1 330 0)">
+            <path d="M0 0h330v450H0z"/>
+            <rect fill="#FF1FAA" opacity=".19" filter="url(#3tlz4em1ha)" x="15" y="15" width="300" height="420" rx="15"/>
+            <rect fill="url(#ag7ueiaktb)" opacity=".8" x="15" y="15" width="300" height="420" rx="15"/>
+            <g opacity=".962">
+                <use fill="#000" filter="url(#xwr7je6qvc)" xlink:href="#witfhm1s2d"/>
+                <rect stroke="url(#ql2lb9ynie)" stroke-linejoin="square" x="15.5" y="15.5" width="299" height="419" rx="15"/>
+            </g>
+            <rect stroke="url(#v8wg04n2of)" x="27.5" y="27.5" width="275" height="395" rx="12"/>
+        </g>
+        <g transform="matrix(-1 0 0 1 315 15)">
+            <rect fill="#FF1FAA" opacity=".308" filter="url(#fux4enjbkg)" width="300" height="420" rx="15"/>
+            <rect fill="url(#ag7ueiaktb)" opacity=".8" width="300" height="420" rx="15"/>
+            <g opacity=".962">
+                <use fill="#000" filter="url(#b0a4e5t42h)" xlink:href="#jyjqv2d1bi"/>
+                <rect stroke="url(#ql2lb9ynie)" stroke-linejoin="square" x=".5" y=".5" width="299" height="419" rx="15"/>
+            </g>
+            <rect stroke="url(#v8wg04n2of)" x="12.5" y="12.5" width="275" height="395" rx="12"/>
+        </g>
+        <g transform="matrix(-1 0 0 1 315 15)">
+            <rect fill="#FF1FAA" opacity=".606" filter="url(#0kxocvruyj)" width="300" height="420" rx="15"/>
+            <rect fill="url(#ag7ueiaktb)" opacity=".8" width="300" height="420" rx="15"/>
+            <g opacity=".962">
+                <use fill="#000" filter="url(#4infomw09k)" xlink:href="#u8m3uizrol"/>
+                <rect stroke="url(#ql2lb9ynie)" stroke-linejoin="square" x=".5" y=".5" width="299" height="419" rx="15"/>
+            </g>
+            <rect stroke="url(#v8wg04n2of)" x="12.5" y="12.5" width="275" height="395" rx="12"/>
+        </g>
+        <g fill="#F92FFC">
+            <path filter="url(#2jtveq9k5m)" transform="scale(-1 1) rotate(45 -302.315 -98.223)" d="m22.368 22.368 101.416 6.583 6.584 101.417-101.417-6.584z"/>
+            <path d="M158 217.39 91.608 293 158 368.61 224.392 293 158 217.39z" stroke="#FFF" fill-opacity=".5"/>
+            <path filter="url(#y34mz02din)" transform="scale(-1 1) rotate(45 -302.315 -98.223)" d="m22.368 22.368 101.416 6.583 6.584 101.417-101.417-6.584z"/>
+            <path d="M158 217.39 91.608 293 158 368.61 224.392 293 158 217.39z" stroke="#FFF" fill-opacity=".5"/>
+        </g>
+        <text filter="url(#3d4kujqa9o)" font-family="Gotham-Medium, Gotham" font-size="160" font-weight="400" fill="#ED1AF0" transform="matrix(-1 0 0 1 283 27)">
+                        <tspan x="0" y="154">A</tspan>
+                    </text>
+        <g fill="#FB00FF" fill-opacity=".877" transform="matrix(-1 0 0 1 283 27)">
+            <use filter="url(#dao6mtzmrp)" xlink:href="#etho1kj3qq"/>
+            <use xlink:href="#etho1kj3qq"/>
+        </g>
+        <text filter="url(#4hdpq5fxgr)" font-family="Gotham-Medium, Gotham" font-size="160" font-weight="400" fill="#ED1AF0" transform="matrix(-1 0 0 1 283 27)">
+                        <tspan x="0" y="154">A</tspan>
+                    </text>
+        <text stroke="#FFF" font-family="Gotham-Medium, Gotham" font-size="160" font-weight="400" fill="#FB00FF" fill-opacity=".51" transform="matrix(-1 0 0 1 283 27)">
+                        <tspan x="0" y="154">A</tspan>
+                    </text>
+    </g>
+</svg>

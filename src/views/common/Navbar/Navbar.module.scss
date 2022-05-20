@@ -1,0 +1,123 @@
+@import "mixins";
+@import "variables";
+
+.navbar {
+    height: 60px;
+    width: 100vw;
+    -ms-user-select: none;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+
+    .navbar_wrap {
+        height: 60px;
+        width: 800px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .logo {
+            width: 167px;
+            @include font(24px, #fff);
+            line-height: 60px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            cursor: pointer;
+
+            .logoimg {
+                background-image: url("../../../Assets/Images/logo-tp.svg");
+                height: 28px;
+                width: 167px;
+            }
+        }
+
+        .menus {
+            width: calc(100% - 74px);
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+
+            .terrapoker {
+                width: 95px;
+                margin: 0 60px 0 0;
+                @include fontLight(16px, rgba(255, 255, 255, 0.3));
+                line-height: 60px;
+                cursor: pointer;
+
+                &.enable {
+                    color: #fff;
+
+                    &:hover {
+                        color: #fff;
+                    }
+                }
+
+                &:hover {
+                    color: #fff;
+                }
+            }
+
+            .introduction {
+                width: 100px;
+                margin: 0 60px 0 0;
+                @include fontLight(16px, rgba(255, 255, 255, 0.3));
+                line-height: 60px;
+                cursor: pointer;
+
+                &.enable {
+                    color: #fff;
+
+                    &:hover {
+                        color: #fff;
+                    }
+                }
+
+                &:hover {
+                    color: #fff;
+                }
+            }
+
+            .roadmap {
+                width: 82px;
+                margin: 0 60px 0 0;
+                @include fontLight(16px, rgba(255, 255, 255, 0.3));
+                line-height: 60px;
+                cursor: pointer;
+
+                &.enable {
+                    color: #fff;
+
+                    &:hover {
+                        color: #fff;
+                    }
+                }
+
+                &:hover {
+                    color: #fff;
+                }
+            }
+
+            .economy {
+                width: 99px;
+                @include fontLight(16px, rgba(255, 255, 255, 0.3));
+                line-height: 60px;
+                cursor: pointer;
+
+                &.enable {
+                    color: #fff;
+
+                    &:hover {
+                        color: #fff;
+                    }
+                }
+
+                &:hover {
+                    color: #fff;
+                }
+            }
+        }
+    }
+}

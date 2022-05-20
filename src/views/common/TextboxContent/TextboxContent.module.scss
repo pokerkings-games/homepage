@@ -1,0 +1,82 @@
+@import "mixins";
+@import "variables";
+
+.textbox_container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    .textbox_center {
+        .textbox_title_wrap {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            -webkit-filter: blur(7px);
+            filter: blur(7px);
+            @include fontBold(42px, #07ffee);
+            width: 100%;
+            animation: blink-effect 2s infinite;
+            z-index: 1;
+
+            @media (max-width: $mobile-size) {
+                @include fontBold(28px, #07ffee);
+
+                &.fun {
+                    @include fontBold(26px, #07ffee);
+                }
+            }
+        }
+
+        .textbox_title {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100%;
+            height: 49px;
+
+            @include fontBold(42px, #fff);
+
+            @media (max-width: $mobile-size) {
+                margin: 0 0 10px 0;
+                @include fontBold(28px, #fff);
+
+                &.fun {
+                    @include fontBold(26px, #fff);
+                }
+            }
+            z-index: 2;
+        }
+
+        .textbox_content {
+            @include font(24px, #fff);
+            white-space: pre-wrap;
+            line-height: 30px;
+            margin: 46px 0 0 0;
+
+            @media (max-width: $mobile-size) {
+                @include font(20px, #fff);
+                margin: 46px 0 0 0;
+                padding: 0 20px 0 20px;
+                line-height: 20px;
+
+                &.reliability {
+                    margin: 76px 0 0 0;
+                }
+            }
+        }
+    }
+}
+
+@keyframes blink-effect {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}

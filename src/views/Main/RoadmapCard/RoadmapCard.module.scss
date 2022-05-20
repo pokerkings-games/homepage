@@ -1,0 +1,739 @@
+@import "mixins";
+@import "variables";
+
+.roadmap_bg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    background: #fff;
+    height: 870px;
+    -ms-user-select: none;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+
+    @media (max-width: $mobile-size) {
+        height: 1259px;
+    }
+
+    .roadmap_m {
+        display: none;
+
+        @media (max-width: $mobile-size) {
+            display: flex;
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100%;
+            height: 100%;
+        }
+
+        .roadmap_title_m {
+            position: absolute;
+            top: 100px;
+            left: 50%;
+            transform: translateX(-50%);
+            @include fontBold(20px, #010101);
+        }
+
+        .roadmap_bgtoken1 {
+            position: absolute;
+            top: 85px;
+            left: 0;
+            width: 168px;
+            height: 168px;
+            background-size: cover;
+            background-image: url("../../../Assets/Images/bgtoken_m.png");
+        }
+
+        .roadmap_bgtoken2 {
+            position: absolute;
+            top: 958px;
+            right: 0;
+            width: 165px;
+            height: 195px;
+            background-size: cover;
+            background-image: url("../../../Assets/Images/bgtoken2_m.png");
+        }
+
+        .roadmap_bgcard_m {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 245px;
+            height: 243px;
+            background-size: cover;
+            background-image: url("../../../Assets/Images/img-card-01.svg");
+        }
+
+        .roadmap_1q {
+            position: absolute;
+            top: 176px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 244px;
+            height: 222px;
+
+            .roadmap_1qbox_m {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                border-radius: 10px;
+                box-shadow: 5px 8px 11px 0 rgba(0, 0, 0, 0.2);
+                border: solid 2px #fff;
+                background-color: #fff;
+                width: 240px;
+                // height: 162px;
+
+                .q2boxwrap {
+                    width: calc(100% - 40px);
+                    height: calc(100% - 40px);
+                    margin: 20px auto 0 auto;
+                    display: flex;
+                    flex-direction: column;
+                    text-align: left;
+
+                    .q2title {
+                        @include fontBold(30px, #000);
+                    }
+
+                    .q2content {
+                        margin-top: -10px;
+                        @include font(14px, #454545);
+                        line-height: 1.57;
+
+                        ul {
+                            padding-left: 14px;
+                        }
+                    }
+                }
+            }
+
+            .roadmap_1qcard_m {
+                position: absolute;
+                top: 0;
+                right: -37px;
+                width: 183px;
+                height: 137px;
+                background-size: cover;
+                background-image: url("../../../Assets/Images/img-card-04.svg");
+            }
+        }
+
+        .roadmap_2q {
+            position: absolute;
+            top: 418px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 254px;
+            height: 284px;
+
+            .roadmap_2qbox_m {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                border-radius: 10px;
+                box-shadow: 5px 8px 11px 0 rgba(0, 0, 0, 0.2);
+                border: solid 2px #fff;
+                background-color: #fff;
+                width: 250px;
+                // height: 184px;
+
+                .q3boxwrap {
+                    width: calc(100% - 40px);
+                    height: calc(100% - 40px);
+                    margin: 20px auto 0 auto;
+                    display: flex;
+                    flex-direction: column;
+                    text-align: left;
+
+                    .q3title {
+                        @include fontBold(30px, #f80010);
+                    }
+
+                    .q3content {
+                        margin-top: -10px;
+                        @include font(14px, #454545);
+                        line-height: 1.57;
+
+                        ul {
+                            padding-left: 14px;
+                        }
+                    }
+                }
+            }
+
+            .roadmap_2qcard_m {
+                position: absolute;
+                top: 0;
+                right: -55px;
+                width: 197px;
+                height: 208px;
+                background-size: cover;
+                background-image: url("../../../Assets/Images/img-card-03.svg");
+            }
+        }
+
+        .roadmap_3q {
+            position: absolute;
+            top: 702px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 254px;
+            height: 298px;
+
+            .roadmap_3qbox_m {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                border-radius: 10px;
+                box-shadow: 5px 8px 11px 0 rgba(0, 0, 0, 0.2);
+                border: solid 2px #fff;
+                background-color: #fff;
+                width: 250px;
+                // height: 162px;
+
+                .q4boxwrap {
+                    width: calc(100% - 40px);
+                    height: calc(100% - 40px);
+                    margin: 20px auto 0 auto;
+                    display: flex;
+                    flex-direction: column;
+                    text-align: left;
+
+                    .q4title {
+                        @include fontBold(30px, #000);
+                    }
+
+                    .q4content {
+                        margin-top: -10px;
+                        @include font(14px, #454545);
+                        line-height: 1.57;
+
+                        ul {
+                            padding-left: 14px;
+                        }
+
+                        .q4contentsub {
+                            margin: -15px 0 20px 14px;
+                            letter-spacing: -0.7px;
+                            @include font(12px, #454545);
+                        }
+                    }
+                }
+            }
+
+            .roadmap_3qcard_m {
+                position: absolute;
+                top: 0;
+                right: -50px;
+                width: 222px;
+                height: 236px;
+                background-size: cover;
+                background-image: url("../../../Assets/Images/img-card-02.svg");
+            }
+        }
+    }
+
+    .roadmap {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 766px;
+        height: 100%;
+
+        @media (max-width: $mobile-size) {
+            display: none;
+        }
+
+        .roadmap_title {
+            position: absolute;
+            top: 60px;
+            left: 50%;
+            transform: translateX(-50%);
+            @include fontBold(24px, #010101);
+        }
+
+        .roadmap_line {
+            position: absolute;
+            top: 88px;
+            left: 50%;
+            transform: translateX(-50%);
+            height: 782px;
+            width: 1px;
+            background: rgba(#000, 0.3);
+        }
+
+        .roadmap_dot1 {
+            position: absolute;
+            top: 269px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 11px;
+            height: 11px;
+            border-radius: 12px;
+            background-color: #000;
+        }
+
+        .roadmap_dot1wrap {
+            position: absolute;
+            top: 264px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 21px;
+            height: 21px;
+            opacity: 0.2;
+            border-radius: 12px;
+            background-color: #000;
+        }
+
+        .roadmap_dot2 {
+            position: absolute;
+            top: 460px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 11px;
+            height: 11px;
+            border-radius: 12px;
+            background-color: #f80010;
+        }
+
+        .roadmap_dot2wrap {
+            position: absolute;
+            top: 455px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 21px;
+            height: 21px;
+            opacity: 0.2;
+            border-radius: 12px;
+            background-color: #f80010;
+        }
+
+        .roadmap_dot3 {
+            position: absolute;
+            top: 651px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 11px;
+            height: 11px;
+            border-radius: 12px;
+            background-color: #000;
+        }
+
+        .roadmap_dot3wrap {
+            position: absolute;
+            top: 646px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 21px;
+            height: 21px;
+            opacity: 0.2;
+            border-radius: 12px;
+            background-color: #000;
+        }
+
+        .q2box {
+            position: absolute;
+            width: 240px;
+            // height: 162px;
+            top: 193px;
+            left: 91px;
+            border-radius: 10px;
+            box-shadow: 5px 8px 11px 0 rgba(0, 0, 0, 0.2);
+            border: solid 2px #fff;
+            background-color: #fff;
+
+            .q2boxwrap {
+                width: calc(100% - 40px);
+                height: calc(100% - 40px);
+                margin: 20px auto 0 auto;
+                display: flex;
+                flex-direction: column;
+                text-align: left;
+
+                .q2title {
+                    @include fontBold(30px, #000);
+                }
+
+                .q2content {
+                    margin-top: -10px;
+                    @include font(14px, #454545);
+                    line-height: 1.57;
+
+                    ul {
+                        padding-left: 14px;
+                    }
+                }
+            }
+        }
+
+        .q2card {
+            position: absolute;
+            top: 130px;
+            left: 183px;
+            width: 183px;
+            height: 137px;
+            background-size: cover;
+            background-image: url("../../../Assets/Images/img-card-04.svg");
+        }
+
+        .q3box {
+            position: absolute;
+            width: 250px;
+            top: 373px;
+            left: 441px;
+            border-radius: 10px;
+            box-shadow: 5px 8px 11px 0 rgba(0, 0, 0, 0.2);
+            border: solid 2px #fff;
+            background-color: #fff;
+
+            .q3boxwrap {
+                width: calc(100% - 40px);
+                height: calc(100% - 40px);
+                margin: 20px auto 0 auto;
+                display: flex;
+                flex-direction: column;
+                text-align: left;
+
+                .q3title {
+                    @include fontBold(30px, #f80010);
+                }
+
+                .q3content {
+                    margin-top: -10px;
+                    @include font(14px, #454545);
+                    line-height: 1.57;
+
+                    ul {
+                        padding-left: 14px;
+                    }
+                }
+            }
+        }
+
+        .q3card {
+            position: absolute;
+            top: 273px;
+            left: 539px;
+            width: 197px;
+            height: 208px;
+            background-size: cover;
+            background-image: url("../../../Assets/Images/img-card-03.svg");
+        }
+
+        .q4box {
+            position: absolute;
+            width: 250px;
+            top: 584px;
+            left: 91px;
+            // right: 416px;
+            border-radius: 10px;
+            box-shadow: 5px 8px 11px 0 rgba(0, 0, 0, 0.2);
+            border: solid 2px #fff;
+            background-color: #fff;
+
+            .q4boxwrap {
+                width: calc(100% - 40px);
+                height: calc(100% - 40px);
+                margin: 20px auto 0 auto;
+                display: flex;
+                flex-direction: column;
+                text-align: left;
+
+                .q4title {
+                    @include fontBold(30px, #000);
+                }
+
+                .q4content {
+                    margin-top: -10px;
+                    @include font(14px, #454545);
+                    line-height: 1.57;
+
+                    ul {
+                        padding-left: 14px;
+                    }
+
+                    .q4contentsub {
+                        margin: -15px 0 20px 14px;
+                        letter-spacing: -0.7px;
+                        @include font(12px, #454545);
+                    }
+                }
+            }
+        }
+
+        .q4card {
+            position: absolute;
+            top: 448px;
+            left: 153px;
+            width: 222px;
+            height: 236px;
+            background-size: cover;
+            background-image: url("../../../Assets/Images/img-card-02.svg");
+        }
+
+        .bgtoken1 {
+            position: absolute;
+            top: 82px;
+            left: 488px;
+            width: 210px;
+            height: 168px;
+            background-size: cover;
+            background-image: url("../../../Assets/Images/bgtoken1.png");
+        }
+
+        .bgtoken2 {
+            position: absolute;
+            top: 373px;
+            left: 0;
+            width: 211px;
+            height: 195px;
+            background-size: cover;
+            background-image: url("../../../Assets/Images/bgtoken2.png");
+        }
+
+        .bgcard {
+            position: absolute;
+            top: 598px;
+            left: 435px;
+            width: 245px;
+            height: 259px;
+            background-size: cover;
+            background-image: url("../../../Assets/Images/img-card-01.svg");
+        }
+    }
+
+    // .roadmap {
+    //     background: #fff;
+    //     height: 805px;
+
+    //     @media (max-width: $mobile-size) {
+    //         height: 710px;
+    //     }
+
+    //     .roadmap_wrap {
+    //         width: 800px;
+    //         height: 805px;
+    //         margin: 0 auto;
+    //         display: flex;
+    //         flex-direction: column;
+
+    //         @media (max-width: $mobile-size) {
+    //             width: 100%;
+    //         }
+
+    //         .roadmap_title {
+    //             height: 29px;
+    //             width: 100%;
+    //             margin: 80px 0 0 0;
+    //             @include font(24px, #010101);
+    //             line-height: 29px;
+
+    //             @media (max-width: $mobile-size) {
+    //                 height: 24px;
+    //                 line-height: 24px;
+    //                 margin: 40px 0 0 0;
+    //                 @include font(20px, #010101);
+    //             }
+    //         }
+
+    //         .roadmap_content {
+    //             height: 623px;
+    //             margin: 13px auto 0 auto;
+    //             width: calc(100% - 80px);
+    //             display: flex;
+    //             flex-direction: row;
+
+    //             @media (max-width: $mobile-size) {
+    //                 margin: 50px 0 0 20px;
+    //                 width: 100%;
+    //                 position: relative;
+    //             }
+
+    //             .roadmap_content_lines {
+    //                 width: 320px;
+    //                 height: 586px;
+    //                 margin: 37px 125px 0 0;
+    //                 display: flex;
+    //                 flex-direction: row;
+
+    //                 @media (max-width: $mobile-size) {
+    //                     margin: 0;
+    //                 }
+
+    //                 .lines_image {
+    //                     width: 21px;
+    //                     height: 623px;
+    //                     margin: 0 20px 0 0;
+    //                     position: relative;
+
+    //                     .lines_image_line {
+    //                         width: 1.3px;
+    //                         height: 292px;
+    //                         background: #3c47ff;
+    //                         opacity: 0.4;
+    //                         position: absolute;
+    //                         left: 48%;
+    //                         top: 16px;
+    //                         transform: (-50%, 0);
+    //                     }
+
+    //                     .lines_image_dot1 {
+    //                         width: 21px;
+    //                         height: 21px;
+    //                         opacity: 0.2;
+    //                         border-radius: 12px;
+    //                         background-color: #3c47ff;
+    //                         position: absolute;
+    //                         top: 0;
+    //                         left: 0;
+    //                     }
+
+    //                     .lines_image_dot1_inner {
+    //                         position: absolute;
+    //                         width: 11px;
+    //                         height: 11px;
+    //                         border-radius: 12px;
+    //                         background-color: #3c47ff;
+    //                         top: 5px;
+    //                         left: 5px;
+    //                     }
+    //                     .lines_image_dot2 {
+    //                         width: 21px;
+    //                         height: 21px;
+    //                         opacity: 0.2;
+    //                         border-radius: 12px;
+    //                         background-color: #3c47ff;
+    //                         position: absolute;
+    //                         top: 140px;
+    //                         left: 0;
+    //                     }
+
+    //                     .lines_image_dot2_inner {
+    //                         position: absolute;
+    //                         width: 11px;
+    //                         height: 11px;
+    //                         border-radius: 12px;
+    //                         background-color: #3c47ff;
+    //                         top: 145px;
+    //                         left: 5px;
+    //                     }
+    //                     .lines_image_dot3 {
+    //                         width: 21px;
+    //                         height: 21px;
+    //                         opacity: 0.2;
+    //                         border-radius: 12px;
+    //                         background-color: #3c47ff;
+    //                         position: absolute;
+    //                         top: 302px;
+    //                         left: 0;
+    //                     }
+
+    //                     .lines_image_dot3_inner {
+    //                         position: absolute;
+    //                         width: 11px;
+    //                         height: 11px;
+    //                         border-radius: 12px;
+    //                         background-color: #3c47ff;
+    //                         top: 307px;
+    //                         left: 5px;
+    //                     }
+    //                     .lines_image_dot4 {
+    //                         width: 21px;
+    //                         height: 21px;
+    //                         opacity: 0.2;
+    //                         border-radius: 12px;
+    //                         background-color: #3c47ff;
+    //                         position: absolute;
+    //                         top: 447px;
+    //                         left: 0;
+    //                     }
+
+    //                     .lines_image_dot4_inner {
+    //                         position: absolute;
+    //                         width: 11px;
+    //                         height: 11px;
+    //                         border-radius: 12px;
+    //                         background-color: #3c47ff;
+    //                         top: 452px;
+    //                         left: 5px;
+    //                     }
+    //                 }
+
+    //                 .lines_text {
+    //                     width: calc(100% - 41px);
+    //                     height: 623px;
+    //                     display: flex;
+    //                     flex-direction: column;
+    //                     text-align: left;
+
+    //                     @media (max-width: $mobile-size) {
+    //                         z-index: 2;
+    //                     }
+
+    //                     .lines_text_q {
+    //                         @include fontBold(20px, #454545);
+    //                     }
+
+    //                     .lines_text_1 {
+    //                         height: 88px;
+    //                         width: 167px;
+    //                         margin: 9px 0 20px 0;
+    //                         @include font(14px, #454545);
+    //                         line-height: 1.57;
+    //                         white-space: pre-wrap;
+    //                     }
+
+    //                     .lines_text_2 {
+    //                         height: 110px;
+    //                         width: 215px;
+    //                         margin: 9px 0 18px 0;
+    //                         @include font(14px, #454545);
+    //                         line-height: 1.57;
+    //                         white-space: pre-wrap;
+    //                     }
+    //                     .lines_text_3 {
+    //                         height: 110px;
+    //                         width: 283px;
+    //                         margin: 9px 0 0 0;
+    //                         @include font(14px, #454545);
+    //                         line-height: 1.57;
+    //                         white-space: pre-wrap;
+    //                     }
+    //                 }
+
+    //                 .roadmap_content_img_mobile {
+    //                     background-image: url("../../../Assets/Images/img-roadmap_mobile.svg");
+    //                     top: 0;
+    //                     right: 20px;
+    //                     width: 220px;
+    //                     height: 498px;
+    //                     position: absolute;
+
+    //                     display: none;
+
+    //                     @media (max-width: $mobile-size) {
+    //                         display: flex;
+    //                         z-index: 1;
+    //                     }
+    //                 }
+    //             }
+
+    //             .roadmap_content_img {
+    //                 background-image: url("../../../Assets/Images/img-roadmap.svg");
+    //                 height: 623px;
+    //                 width: 275px;
+
+    //                 @media (max-width: $mobile-size) {
+    //                     display: none;
+    //                 }
+    //             }
+    //         }
+    //     }
+    // }
+}
