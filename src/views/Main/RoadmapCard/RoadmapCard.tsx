@@ -17,13 +17,12 @@ export default function RoadmapCard(props: { page: any }) {
                 <div className={style.bgcard} />
                 <div className={style.q2box}>
                     <div className={style.q2boxwrap}>
-                        <div className={style.q2title}>{"2Q"}</div>
+                        <div className={style.q2year}>{"2022."}</div>
+                        <div className={style.q2title}>{"3Q"}</div>
                         <div className={style.q2content}>
                             <ul>
-                                <li>{"Landing Page Launch"}</li>
-                                <li>{"Token Sale"}</li>
-                                <li>{"Publish Litepaper"}</li>
-                                <li>{"TGE (Webapp Launch)"}</li>
+                                <li>{"Token sale"}</li>
+                                <li>{"Webapp launch (TGE)"}</li>
                             </ul>
                         </div>
                     </div>
@@ -31,14 +30,13 @@ export default function RoadmapCard(props: { page: any }) {
                 <div className={style.q2card} />
                 <div className={style.q3box}>
                     <div className={style.q3boxwrap}>
-                        <div className={style.q3title}>{"3Q"}</div>
+                        <div className={style.q3title}>{"4Q"}</div>
                         <div className={style.q3content}>
                             <ul>
-                                <li>{"Tournament Open"}</li>
-                                <li>{"Terra Poker NFT Launch"}</li>
-                                <li>{"Boost Marketing Engagement"}</li>
-                                <li>{"YouTube Live Streaming open"}</li>
-                                <li>{"Dapp Activation Airdrop"}</li>
+                                <li>{"Tournament open"}</li>
+                                <li>{"Boost marketing engagement"}</li>
+                                <li>{"Dapp activation airdrop"}</li>
+                                <li>{"YouTube live streaming service"}</li>
                             </ul>
                         </div>
                     </div>
@@ -46,14 +44,16 @@ export default function RoadmapCard(props: { page: any }) {
                 <div className={style.q3card} />
                 <div className={style.q4box}>
                     <div className={style.q4boxwrap}>
-                        <div className={style.q4title}>{"4Q"}</div>
+                        <div className={style.q4year}>{"2023."}</div>
+                        <div className={style.q4title}>{"1Q"}</div>
                         <div className={style.q4content}>
                             <ul>
-                                <li>{"Cross-Chain Support"}</li>
+                                <li>{"Terra Poker NFT launch"}</li>
+                                <li>{"Cross-chain support"}</li>
                             </ul>
                             <div className={style.q4contentsub}>
                                 {
-                                    "(Expand the Terra Poker universe by joining the COSMOS ecosystem via IBC)"
+                                    "(expand the Terra Poker universe by joining the Cosmos ecosystem via IBC)"
                                 }
                             </div>
                         </div>
@@ -70,13 +70,12 @@ export default function RoadmapCard(props: { page: any }) {
                 <div className={style.roadmap_1q}>
                     <div className={style.roadmap_1qbox_m}>
                         <div className={style.q2boxwrap}>
-                            <div className={style.q2title}>{"2Q"}</div>
+                            <div className={style.q2year}>{"2022."}</div>
+                            <div className={style.q2title}>{"3Q"}</div>
                             <div className={style.q2content}>
                                 <ul>
-                                    <li>{"Landing Page Launch"}</li>
-                                    <li>{"Token Sale"}</li>
-                                    <li>{"Publish Litepaper"}</li>
-                                    <li>{"TGE (Webapp Launch)"}</li>
+                                    <li>{"Token sale"}</li>
+                                    <li>{"Webapp launch (TGE)"}</li>
                                 </ul>
                             </div>
                         </div>
@@ -86,14 +85,13 @@ export default function RoadmapCard(props: { page: any }) {
                 <div className={style.roadmap_2q}>
                     <div className={style.roadmap_2qbox_m}>
                         <div className={style.q3boxwrap}>
-                            <div className={style.q3title}>{"3Q"}</div>
+                            <div className={style.q3title}>{"4Q"}</div>
                             <div className={style.q3content}>
                                 <ul>
-                                    <li>{"Tournament Open"}</li>
-                                    <li>{"Terra Poker NFT Launch"}</li>
-                                    <li>{"Boost Marketing Engagement"}</li>
-                                    <li>{"YouTube Live Streaming open"}</li>
-                                    <li>{"Dapp Activation Airdrop"}</li>
+                                    <li>{"Tournament open"}</li>
+                                    <li>{"Boost marketing engagement"}</li>
+                                    <li>{"Dapp activation airdrop"}</li>
+                                    <li>{"YouTube live streaming service"}</li>
                                 </ul>
                             </div>
                         </div>
@@ -103,14 +101,16 @@ export default function RoadmapCard(props: { page: any }) {
                 <div className={style.roadmap_3q}>
                     <div className={style.roadmap_3qbox_m}>
                         <div className={style.q4boxwrap}>
-                            <div className={style.q4title}>{"4Q"}</div>
+                            <div className={style.q4year}>{"2023."}</div>
+                            <div className={style.q4title}>{"1Q"}</div>
                             <div className={style.q4content}>
                                 <ul>
-                                    <li>{"Cross-Chain Support"}</li>
+                                    <li>{"Terra Poker NFT launch"}</li>
+                                    <li>{"Cross-chain support"}</li>
                                 </ul>
                                 <div className={style.q4contentsub}>
                                     {
-                                        "(Expand the Terra Poker universe by joining the COSMOS ecosystem via IBC)"
+                                        "(expand the Terra Poker universe by joining the Cosmos ecosystem via IBC)"
                                     }
                                 </div>
                             </div>

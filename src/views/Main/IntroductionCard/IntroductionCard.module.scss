@@ -329,24 +329,22 @@
                     }
 
                     .opencard_wrapper_dimmed {
-                        position: absolute;
                         width: 450px;
                         height: 140px;
                         margin: 70px auto 0 auto;
                         position: absolute;
                         top: 0;
                         left: 410px;
-                        opacity: 0;
                         transition-duration: 2s;
-                        transform: perspective(350px) rotateX(20deg);
-                        perspective: 1200px;
+                        opacity: 0.8;
+                        display: none;
 
                         @media (max-width: $mobile-size) {
+                            display: block;
                             width: 220px;
-                            height: 75px;
+                            height: 80px;
+                            margin: 40px auto 0 auto;
                             left: 240px;
-                            margin: -30px 0 0 0;
-                            transform: perspective(200px) rotateX(20deg);
                         }
 
                         .opencard_table_dimmed {
@@ -356,13 +354,16 @@
                             flex-wrap: wrap;
                             display: flex;
                             flex-direction: row;
-                            // transform: perspective(350px) rotateX(20deg);
-                            // perspective: 1200px;
+                            transform: perspective(350px) rotateX(20deg);
+                            perspective: 1200px;
                             margin: 0 0 0 -60px;
+                            background: green;
 
                             @media (max-width: $mobile-size) {
                                 width: 220px;
-                                height: 75px;
+                                height: 80px;
+                                margin: 0 auto;
+                                transform: perspective(200px) rotateX(20deg);
                             }
 
                             .card2_dimmed {

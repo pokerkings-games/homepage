@@ -16,6 +16,7 @@ export default function IntroductionCard1(props: {
 
     function opacityTransition(direction: number, id: string) {
         const object = document.getElementById(id);
+
         if (!object) {
             return;
         }
@@ -52,6 +53,8 @@ export default function IntroductionCard1(props: {
                 object.style.opacity = "1";
                 object.style.zIndex = "2";
                 object.style.display = "inline";
+            } else if (id === "dimmed") {
+                object.style.opacity = "0.6";
             } else {
                 object.style.opacity = "1";
             }
@@ -209,6 +212,7 @@ export default function IntroductionCard1(props: {
                 // opacityTransition(0, "state1_m");
                 // gifMovedown(0);
                 // textboxResizeMove(0);
+                opacityTransition(0, "dimmed");
             }, transition);
         }
         // preflop
@@ -236,6 +240,7 @@ export default function IntroductionCard1(props: {
                 opacityTransition(0, "state2");
                 // opacityTransition(1, "state1_m");
                 // opacityTransition(0, "state2_m");
+                opacityTransition(0, "dimmed");
             }, transition);
         }
         // flop
@@ -255,6 +260,7 @@ export default function IntroductionCard1(props: {
                 // opacityTransition(1, "state2_m");
                 // opacityTransition(0, "state3_m");
                 // textboxResizeMove(2);
+                opacityTransition(0, "dimmed");
             }, transition);
         }
         // turn
@@ -268,10 +274,14 @@ export default function IntroductionCard1(props: {
                 opacityTransition(0, "state2");
                 opacityTransition(1, "state3");
                 opacityTransition(0, "state4");
+                // opacityTransition(2, "opencard1");
+                // opacityTransition(2, "opencard2");
+                // opacityTransition(2, "opencard4");
                 // opacityTransition(0, "state2_m");
                 // opacityTransition(1, "state3_m");
                 // opacityTransition(0, "state4_m");
                 // textboxResizeMove(3);
+                opacityTransition(0, "dimmed");
             }, transition);
         }
         // river
@@ -294,6 +304,7 @@ export default function IntroductionCard1(props: {
                 opacityTransition(1, "nextbutton");
                 buttonTransition("prevbutton", -90);
                 // textboxResizeMove(4);
+                opacityTransition(0, "dimmed");
             }, transition);
         }
         // end - dimmed
@@ -311,8 +322,11 @@ export default function IntroductionCard1(props: {
                 opacityTransition(0, "nextbutton");
                 buttonTransition("prevbutton", 0);
                 // textboxResizeMove(5);
+                opacityTransition(1, "dimmed");
             }, transition);
         }
+
+        console.log("asdfasdfasdfasdF: " + nowinnerpage);
     }, [nowinnerpage]);
 
     // useEffect(() => {
@@ -377,6 +391,17 @@ export default function IntroductionCard1(props: {
                                     ></div>
                                 </div>
                             </div>
+
+                            {/* <div
+                                className={style.opencard_wrapper_dimmed}
+                                id="dimmed"
+                            >
+                                <div className={style.opencard_table_dimmed}>
+                                    <div className={style.card2_dimmed}></div>
+                                    <div className={style.card2_dimmed2}></div>
+                                    <div className={style.card2_dimmed3}></div>
+                                </div>
+                            </div> */}
 
                             <div className={style.mycard_table}>
                                 <div

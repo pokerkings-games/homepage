@@ -33,7 +33,7 @@ export function TextboxContent(props: { title: string }) {
                         : props.title === "PLAY TO EARN (P2E)"
                         ? "Play tournaments & cash games to earn unlimited rewards"
                         : props.title === "REWARD CIRCULATION"
-                        ? "Distribution of all collected rake fees to user rewards : \nStaking rewards / Tournament Tickets / Prizes"
+                        ? "Distribution of all collected rake fees to user rewards : \nStaking rewards / Tournament tickets / Prizes"
                         : "Random dealing system contract & prevention of bots \nor any other programmatic abuse"}
                 </div>
             </div>

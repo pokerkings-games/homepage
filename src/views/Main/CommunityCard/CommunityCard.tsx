@@ -13,9 +13,7 @@ export default function CommunityCard(props: { page: any }) {
                 <div className={style.community_icons}>
                     <a
                         className={style.com_icon1}
-                        href={
-                            "https://twitter.com/tp_terrapoker?s=21&t=X7U80KBQ7uIH7Is54vb9SQ"
-                        }
+                        href={"https://twitter.com/tp_terrapoker"}
                         target="_blank"
                     >
                         <div className={style.com_icon1_img} />

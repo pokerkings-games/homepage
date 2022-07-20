@@ -96,6 +96,10 @@
                     flex-direction: column;
                     text-align: left;
 
+                    .q2year {
+                        @include fontBold(18px, #454545);
+                    }
+
                     .q2title {
                         @include fontBold(30px, #000);
                     }
@@ -203,6 +207,10 @@
                     display: flex;
                     flex-direction: column;
                     text-align: left;
+
+                    .q4year {
+                        @include fontBold(18px, #454545);
+                    }
 
                     .q4title {
                         @include fontBold(30px, #000);
@@ -356,6 +364,10 @@
                 flex-direction: column;
                 text-align: left;
 
+                .q2year {
+                    @include fontBold(18px, #454545);
+                }
+
                 .q2title {
                     @include fontBold(30px, #000);
                 }
@@ -385,7 +397,7 @@
         .q3box {
             position: absolute;
             width: 250px;
-            top: 373px;
+            top: 380px;
             left: 441px;
             border-radius: 10px;
             box-shadow: 5px 8px 11px 0 rgba(0, 0, 0, 0.2);
@@ -429,7 +441,7 @@
         .q4box {
             position: absolute;
             width: 250px;
-            top: 584px;
+            top: 570px;
             left: 91px;
             // right: 416px;
             border-radius: 10px;
@@ -444,6 +456,10 @@
                 display: flex;
                 flex-direction: column;
                 text-align: left;
+
+                .q4year {
+                    @include fontBold(18px, #454545);
+                }
 
                 .q4title {
                     @include fontBold(30px, #000);
