@@ -3,7 +3,9 @@ import style from "./RoadmapCard.module.scss";
 export default function RoadmapCard(props: { page: any }) {
     return (
         <div className={style.roadmap_bg} id="roadmap_bg">
-            <div className={style.roadmap}>
+            <div className={style.roadmap_img} />
+            <div className={style.roadmap_line} />
+            {/* <div className={style.roadmap}>
                 <div className={style.roadmap_title}>{"ROADMAP"}</div>
                 <div className={style.roadmap_line} />
                 <div className={style.roadmap_dot1} />
@@ -118,7 +120,7 @@ export default function RoadmapCard(props: { page: any }) {
                     </div>
                     <div className={style.roadmap_3qcard_m} />
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 }

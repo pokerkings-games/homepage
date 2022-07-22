@@ -6,16 +6,49 @@
     flex-direction: column;
     justify-content: center;
     position: relative;
-    background: #fff;
-    height: 870px;
+    background: #000;
+    height: 1000px;
     -ms-user-select: none;
     -moz-user-select: -moz-none;
     -khtml-user-select: none;
     -webkit-user-select: none;
     user-select: none;
 
+    .roadmap_line {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 1000px;
+        width: 100%;
+        background-size: cover;
+        background-image: url("../../../Assets/Images/TP-Page-line.png");
+
+        @media (max-width: $mobile-size) {
+            height: 810px;
+        }
+    }
+
+    .roadmap_img {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 1920px;
+        height: 1000px;
+        background-size: cover;
+        background-image: url("../../../Assets/Images/TP-Page-01.png");
+
+        @media (max-width: $mobile-size) {
+            width: 547px;
+            height: 810px;
+            background-image: url("../../../Assets/Images/TP-Page-05_m.png");
+        }
+    }
+
     @media (max-width: $mobile-size) {
-        height: 1259px;
+        // background: rgb(19, 19, 40);
+        height: 810px;
     }
 
     .roadmap_m {
