@@ -28,7 +28,8 @@
             cursor: pointer;
 
             .logoimg {
-                background-image: url("../../../Assets/Images/logo-tp.svg");
+                background-size: cover;
+                background-image: url("../../../Assets/Images/logo-tp.png");
                 height: 28px;
                 width: 167px;
             }
